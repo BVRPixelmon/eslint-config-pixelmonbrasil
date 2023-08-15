@@ -35,7 +35,6 @@ module.exports = {
       'jsxSingleQuote': false,
       'trailingComma': 'es5',
       'bracketSpacing': true,
-      'jsxBracketSameLine': false,
       'arrowParens': 'always',
       'endOfLine': 'auto'
     }],
