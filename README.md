@@ -1,4 +1,4 @@
-# Rocketseat ESLint config
+# PixelmonBrasil ESLint config
 
 ## Whats included?
 
