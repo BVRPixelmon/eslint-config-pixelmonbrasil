@@ -15,7 +15,7 @@
 Install dependencies:
 
 ```bash
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @pixelmonbrasil/eslint-config
 ```
 
 Inside `.eslintrc.json`
@@ -23,7 +23,7 @@ Inside `.eslintrc.json`
 ```json
 {
   "extends": [
-    "@rocketseat/eslint-config/next", 
+    "@pixelmonbrasil/eslint-config/next", 
     "next/core-web-vitals"
   ]
 }
@@ -34,14 +34,14 @@ Inside `.eslintrc.json`
 Install dependencies:
 
 ```bash
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @pixelmonbrasil/eslint-config
 ```
 
 Inside `.eslintrc.json`
 
 ```json
 {
-  "extends": "@rocketseat/eslint-config/react"
+  "extends": "@pixelmonbrasil/eslint-config/react"
 }
 ```
 
@@ -50,13 +50,13 @@ Inside `.eslintrc.json`
 Install dependencies:
 
 ```bash
-npm i -D eslint @rocketseat/eslint-config
+npm i -D eslint @pixelmonbrasil/eslint-config
 ```
 
 Inside `.eslintrc.json`
 
 ```json
 {
-  "extends": "@rocketseat/eslint-config/node"
+  "extends": "@pixelmonbrasil/eslint-config/node"
 }
 ```
