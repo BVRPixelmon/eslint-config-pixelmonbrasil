@@ -57,7 +57,24 @@ module.exports = {
     "import/order": [
       "error",
       {
-        "newlines-between": "always-and-inside-groups"
+        "newlines-between": "always-and-inside-groups",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        },
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          [
+            "sibling",
+            "parent"
+          ],
+          "index",
+          "object",
+          "type",
+          "unknown"
+        ]
       }
     ],
   },
