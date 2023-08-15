@@ -14,12 +14,18 @@ module.exports = {
     'prettier/prettier': [
       'error',
       {
-        printWidth: 80,
+        printWidth: 100,
         tabWidth: 2,
+        useTabs: false,
+        semi: true,
         singleQuote: true,
-        trailingComma: 'all',
+        quoteProps: 'as-needed',
+        jsxSingleQuote: false,
+        trailingComma: 'es5',
+        bracketSpacing: true,
+        jsxBracketSameLine: false,
         arrowParens: 'always',
-        semi: false,
+        endOfLine: 'auto'
       },
     ],
   },

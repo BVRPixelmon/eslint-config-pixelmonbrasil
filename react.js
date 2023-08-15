@@ -26,13 +26,18 @@ module.exports = {
   ],
   rules: {
     'prettier/prettier': ["error", {
-      'printWidth': 80,
+      'printWidth': 100,
       'tabWidth': 2,
+      'useTabs': false,
+      'semi': true,
       'singleQuote': true,
-      'trailingComma': 'all',
+      'quoteProps': 'as-needed',
+      'jsxSingleQuote': false,
+      'trailingComma': 'es5',
+      'bracketSpacing': true,
+      'jsxBracketSameLine': false,
       'arrowParens': 'always',
-      'semi': false,
-      'endOfLine': 'auto',
+      'endOfLine': 'auto'
     }],
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 'off',
@@ -48,6 +53,14 @@ module.exports = {
     'jsx-a11y/aria-unsupported-elements': 'warn',
     'jsx-a11y/role-has-required-aria-props': 'warn',
     'jsx-a11y/role-supports-aria-props': 'warn',
+    'react/no-unknown-property': 'error',
+    "react/jsx-props-no-spreading": "off",
+    "import/order": [
+      "error",
+      {
+        "newlines-between": "always-and-inside-groups"
+      }
+    ],
   },
   settings: {
     react: {
@@ -56,5 +69,8 @@ module.exports = {
     'import/parsers': {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
     },
-  }
+  },
+  ignorePatterns: [
+    'node_modules'
+  ]
 }

@@ -1,4 +1,4 @@
-# Rocketseat ESLint config
+# PixelmonBrasil ESLint config
 
 ## Whats included?
 
@@ -13,11 +13,14 @@
 ### React (with Next.js)
 
 Install dependencies:
-```
+
+```bash
 npm i -D eslint @rocketseat/eslint-config
 ```
+
 Inside `.eslintrc.json`
-```
+
+```json
 {
   "extends": [
     "@rocketseat/eslint-config/next", 
@@ -29,11 +32,14 @@ Inside `.eslintrc.json`
 ### React (without Next.js)
 
 Install dependencies:
-```
+
+```bash
 npm i -D eslint @rocketseat/eslint-config
 ```
+
 Inside `.eslintrc.json`
-```
+
+```json
 {
   "extends": "@rocketseat/eslint-config/react"
 }
@@ -42,11 +48,14 @@ Inside `.eslintrc.json`
 ### Node.js
 
 Install dependencies:
-```
+
+```bash
 npm i -D eslint @rocketseat/eslint-config
 ```
+
 Inside `.eslintrc.json`
-```
+
+```json
 {
   "extends": "@rocketseat/eslint-config/node"
 }
