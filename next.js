@@ -22,6 +22,7 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+    '@typescript-eslint/no-unnecessary-condition': 'error',
     'prettier/prettier': ["error", {
       'printWidth': 100,
       'tabWidth': 2,
