@@ -1,6 +1,6 @@
 {
   "name": "@pixelmonbrasil/eslint-config",
-  "version": "2.2.2",
+  "version": "2.3.0",
   "private": false,
   "description": "ESLint configuration used by Pixelmon Brasil.",
   "main": "index.js",
