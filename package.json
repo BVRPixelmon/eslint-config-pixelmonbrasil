@@ -6,7 +6,7 @@
   "main": "index.js",
   "license": "MIT",
   "repository": {
-    "url": "pixelmonbrasil/eslint-config-pixelmonbrasil"
+    "url": "BVRPixelmon/eslint-config-pixelmonbrasil"
   },
   "peerDependencies": {
     "eslint": "^8.0.0",
