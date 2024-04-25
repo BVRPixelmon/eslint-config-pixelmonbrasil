@@ -25,6 +25,7 @@ module.exports = {
     '@typescript-eslint'
   ],
   rules: {
+    "react/self-closing-comp": "error",
     'prettier/prettier': ["error", {
       'printWidth': 100,
       'tabWidth': 2,
